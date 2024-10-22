@@ -1,0 +1,13 @@
+{
+    "name": "timcreativeofficial/product-realtime-master-dashboard",
+    "description": "Master Dashboard By TimCreativeOfficial",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tim Creative Official",
+            "email": "hello@mydomain.com"
+        }
+    ],
+    "require": {}
+}
