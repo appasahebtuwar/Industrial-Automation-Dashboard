@@ -9,15 +9,15 @@ function updateValue() {
 }
 function updateRevValue() {
     counter += Math.floor(Math.random() * 10); // Update the counter randomly
-    document.getElementById('RevValue').innerText = counter + "K"; // Update the content
+    document.getElementById('RevValue').innerText = counter; // Update the content
 
 }
 
 function updateActualValue() {
     actualcounter += Math.floor(Math.random() * 10); // Update the counter randomly
-    document.getElementById('ActualVal').innerText = actualcounter + "CR"; // Update the content
+    document.getElementById('ActualVal').innerText = actualcounter; // Update the content
     diffCounter = target - actualcounter
-    document.getElementById('DiffVal').innerText = diffCounter + "CR"; // Update the content
+    document.getElementById('DiffVal').innerText = diffCounter; // Update the content
 
 }
 
